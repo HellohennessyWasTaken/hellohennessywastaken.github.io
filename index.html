@@ -6,29 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>hellohennessy's Roblox Studio Portfolio</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
   </head>
   
   <body>
     <header>
-       <nav>
-      
+      <nav class="navbar">
+        <div class="nav-left">
+          <a href="https://create.roblox.com/talent/creators/495701832" target="_blank" class="button-primary"> <img src="./images/avatarheadshot.png" alt="avatarheadshot" id="avatarheadshot-icon"> @hellohennessy</a>
+        </div>
+        <div class="nav-right">
+          <a href="#section-hero" rel="noopener noreferrer" class="button-secondary"> Presentation</a>
+          <a href="#section-skills" rel="noopener noreferrer" class="button-secondary"> Skills</a>
+          <a href="#section-projects" rel="noopener noreferrer" class="button-secondary"> Projects</a>
+          <a href="#section-contact" rel="noopener noreferrer" class="button-secondary"> Contacts</a>
+        </div>
       </nav>
     </header>
     
     <main>
-        <section>
-          
+        <section id="section-hero">
+          <h1>Hello there 👋</h1>
+          <p>I'm a Roblox Game Developer specializing in <strong>scripting</strong> and <strong>game design</strong>.</p>
+          <a href="#section-contact" class="button-cta">Get in Touch!</a>
         </section>
 
-        <section>
-          
+        <section id="section-projects">
+          <h1>My Projects ✅</h1>
+          <p>I've worked on numerous projects, from personal works to full hires.</p>
+          <div class="panel">
+            <div class="card">
+              <img src="your-project-image.jpg" alt="Screenshot of project" class="card-img" />
+              <div class="card-content">
+                <h2>Project Title</h2>
+                <p>Brief description of the project, what it does, or what it's built with.</p>
+                <a href="https://github.com/your-project" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="your-project-image.jpg" alt="Screenshot of project" class="card-img" />
+              <div class="card-content">
+                <h2>Project Title</h2>
+                <p>Brief description of the project, what it does, or what it's built with.</p>
+                <a href="https://github.com/your-project" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="your-project-image.jpg" alt="Screenshot of project" class="card-img" />
+              <div class="card-content">
+                <h2>Project Title</h2>
+                <p>Brief description of the project, what it does, or what it's built with.</p>
+                <a href="https://github.com/your-project" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="section-skills">
+          <h1>Skills 📜</h1>
+          <ul>
+            <li>Roblox Scripting: Proficient in Luau (obviously).</li>
+            <li>Team and Solo Work: Comfortable working alone or collaborating with teams withh readable code.</li>
+            <li>Quality Code: Committed to best practices for maintainable and efficient code.</li>
+            <li>Knit Framework: Experienced with the Knit Framework for structured game logic.</li>
+            <li>Problem Solving: Skilled in debugging and optimizing for performance.</li>
+          </ul>
+        </section>
+
+        <section id="section-contact">
+          <h1>Contact me ✉️</h1>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2025 hellohennessy's Roblox Studio Portfolio. Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License</a></p>
-        <p>Made using native HTML, CSS, and JavaScripts</p>
+        <p class="subtext">&copy; 2025 hellohennessy's Roblox Studio Portfolio. Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License</a>.</p>
+        <p class="subtext">Made using native HTML, CSS, and JavaScript.</p>
     </footer>
     
     <script src="index.js"></script>
