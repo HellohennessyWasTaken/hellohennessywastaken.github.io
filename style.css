@@ -145,6 +145,7 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 350px;
+    height: auto;
     margin: var(--space-unrelated);
     border-radius: 12px;
     background-color: var(--color-reallydarkgrey);

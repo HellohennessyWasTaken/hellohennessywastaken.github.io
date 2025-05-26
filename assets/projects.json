@@ -4,7 +4,7 @@
             "./assets/projects/project1/1.png"
         ],
         "title": "At Odd's End",
-        "description": "A game with over <strong>400k</strong> visits, I was in charge of scripting main updates, and maintaining code."
+        "description": "A game with over <strong>400k</strong> visits, I was charged with programming main updates, and maintaining code."
     },
     {
         "images": [
@@ -12,6 +12,14 @@
             "./assets/projects/project2/2.png"
         ],
         "title": "Horizn Games",
-        "description": "Collaborated with a small team of independent developers to design and prototype games."
+        "description": "Collaborated with a small team of talented independent developers to design and prototype games."
+    },
+    {
+        "images": [
+            "./assets/projects/project3/1.png",
+            "./assets/projects/project3/2.png"
+        ],
+        "title": "Apocalypse Management",
+        "description": "A solo-development project of mine; from game design and scripting, to asset creation, I had did a <strong>full-stack</strong> experience."
     }
 ]
