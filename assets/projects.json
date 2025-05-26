@@ -4,7 +4,7 @@
             "./assets/projects/project1/1.png"
         ],
         "title": "At Odd's End",
-        "description": "A game with over 400k visits, I was in charge of scripting main updates, and maintaining code."
+        "description": "A game with over <strong>400k</strong> visits, I was in charge of scripting main updates, and maintaining code."
     },
     {
         "images": [
