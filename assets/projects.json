@@ -1,0 +1,17 @@
+[
+    {
+        "images": [
+            "./assets/projects/project1/1.png"
+        ],
+        "title": "At Odd's End",
+        "description": "A game with over 400k visits, I was in charge of scripting main updates, and maintaining code."
+    },
+    {
+        "images": [
+            "./assets/projects/project2/1.png",
+            "./assets/projects/project2/2.png"
+        ],
+        "title": "Horizn Games",
+        "description": "Collaborated with a small team of independent developers to design and prototype games on the Roblox platform and eventually publish successful games."
+    }
+]
