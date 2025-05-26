@@ -62,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Helvetica, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5rem;
     text-align: center;
     color: var(--color-text-default);
     height: auto;
@@ -197,6 +197,7 @@ main {
 #section-skills {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: auto;
     min-height: 100vh;
@@ -219,6 +220,7 @@ main {
 #section-socials {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: auto;
     min-height: 100vh;
@@ -230,12 +232,21 @@ main {
         font-size: 1.25rem;
         text-align: center;
         margin-bottom: var(--space-unrelated);
-        max-width: 600px;
+        max-width: 38rem;
     }
 
-.section-text-intro {
-    margin-bottom: var(--space-section);
-}
+    .social-icons {
+        width: auto;
+    }
+
+        .social-icons a {
+            font-size: 2.5rem;
+            margin: var(--space-unrelated);
+        }
+
+        .social-icons i {
+            size: 500px;
+        }
 
 footer {
     width: 100%;
@@ -316,6 +327,11 @@ footer {
 h1 {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 4rem;
+}
+
+p {
+    margin-bottom: 1rem;
 }
 
 a {
