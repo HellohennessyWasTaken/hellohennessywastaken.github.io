@@ -150,9 +150,12 @@ main {
     border-radius: 12px;
     background-color: var(--color-reallydarkgrey);
     box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
-
     overflow: hidden;
+    transition: box-shadow 1s;
 }
+    .card:hover {
+        box-shadow: 0rem 0rem 2rem rgba(200, 200, 200, 0.15);
+    }
 
     .card-content {
         padding: var(--space-md);
@@ -245,13 +248,14 @@ footer {
     border-color: var(--color-button-cta-border);
     background-color: transparent;
     color: var(--color-button-cta-text);
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 1s;
 }
 
     .button-cta:hover {
         border-color: var(--color-button-cta-border-hover);
         background-color: var(--color-button-cta-bg-hover);
         color: var(--color-button-cta-text-hover);
+        box-shadow: 0rem 0rem 1.5rem rgba(200, 200, 200, 0.3);;
         cursor: pointer;
     }
 
@@ -266,13 +270,14 @@ footer {
     text-decoration: none;
     backdrop-filter: blur(10px);
 
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 1s;
 }
 
     .button-primary:hover {
         border-color: var(--color-button-primary-border-hover);
         background-color: var(--color-button-primary-bg-hover);
         color: var(--color-button-primary-text-hover);
+        box-shadow: 0rem 0rem 1.5rem rgba(200, 200, 200, 0.3);;
         cursor: pointer;
     }
 
@@ -283,12 +288,13 @@ footer {
     color: var(--color-button-secondary-text);
     text-decoration: none;
 
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 1s;;
 }
 
     .button-secondary:hover {
         background-color: var(--color-button-secondary-bg-hover);
         color: var(--color-button-secondary-text-hover);
+        box-shadow: 0rem 0rem 1.5rem rgba(200, 200, 200, 0.3);;
         cursor: pointer;
     }
 
