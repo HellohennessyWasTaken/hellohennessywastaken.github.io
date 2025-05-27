@@ -22,5 +22,12 @@
         ],
         "title": "Apocalypse Management",
         "description": "A solo-development project of mine; from game design and scripting, to asset creation, I had did a <strong>full-stack</strong> experience."
+    },
+    {
+        "images": [
+            "./assets/projects/project4/1.png"
+        ],
+        "title": "Random weapon system",
+        "description": "I worked on a third person gun system."
     }
 ]
