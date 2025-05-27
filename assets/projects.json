@@ -9,7 +9,8 @@
     {
         "images": [
             "./assets/projects/project2/1.png",
-            "./assets/projects/project2/2.png"
+            "./assets/projects/project2/2.png",
+            "./assets/projects/project2/3.png"
         ],
         "title": "Horizn Games",
         "description": "Collaborated with a small team of talented independent developers to design and prototype games."
