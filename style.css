@@ -121,6 +121,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     height: auto;
     min-height: 100vh;
     padding: 4rem 3rem;
@@ -134,9 +135,17 @@ main {
         max-width: 40rem;
     } 
 
+.panel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .panel {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
     justify-content: left;
     align-items: center;
 
@@ -150,6 +159,7 @@ main {
     border-top-color: var(--color-transparentgrey);
 
     overflow-x: auto;
+    scroll-behavior: smooth;
 }
 
     .card {
@@ -200,6 +210,39 @@ main {
                 object-fit: cover;
                 flex-shrink: 0;
             }
+
+        .arrow {
+            margin: 2rem;
+            font-size: 3rem;
+            color: var(--color-lightgrey);
+            opacity: 0.6;
+        }
+
+        .arrow.right {
+            animation: bounceArrowRight 1.2s infinite;
+        }
+
+        @keyframes bounceArrowRight {
+            0%, 100% {
+            transform: translateX(0);
+            }
+            50% {
+                transform: translateX(7px);
+            }
+        }
+
+        .arrow.left {
+            animation: bounceArrowLeft 1.2s infinite;
+        }
+
+        @keyframes bounceArrowLeft {
+            0%, 100% {
+            transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-7px);
+            }
+        }
 
 #section-skills {
     display: flex;
