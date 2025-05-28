@@ -160,6 +160,7 @@ main {
 
         overflow-x: auto;
         scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
     }
 
         .card {
@@ -210,6 +211,13 @@ main {
                     object-fit: cover;
                     flex-shrink: 0;
                 }
+    
+    .panel > .card:first-child {
+        scroll-snap-align: start;
+    }
+    .panel > .card:last-child {
+        scroll-snap-align: end;
+    }
 
     .arrow {
         margin: 2rem;
