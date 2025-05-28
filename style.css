@@ -254,6 +254,10 @@ main {
         .social-icons i {
             size: 500px;
         }
+        
+.text-intro {
+    margin-bottom: var(--space-unrelated);
+}
 
 footer {
     width: 100%;
@@ -338,7 +342,7 @@ h1 {
 }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-related);
 }
 
 a {
