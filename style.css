@@ -384,6 +384,10 @@ footer {
         opacity: 1;
     }
 
+    .fade-in.button-cta {
+        transition: opacity 0.8s ease-out, background-color 0.3s, color 0.3s, box-shadow 1s;
+    }
+
 .slide-in {
     transform: translateY(4rem);
     transition: transform 0.6s ease-out;
